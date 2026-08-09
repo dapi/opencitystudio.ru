@@ -1,5 +1,139 @@
 [
   {
+    "id": "ARCH-047",
+    "original_filename": "01-municipal-os-selected-v1.png",
+    "appearance_date": "2026-08-10",
+    "public_path": "/assets/archive/arch-047.png",
+    "used_by": []
+  },
+  {
+    "id": "ARCH-048",
+    "original_filename": "02-digital-city-hall-illustration-reference-v1.png",
+    "appearance_date": "2026-08-10",
+    "public_path": "/assets/archive/arch-048.png",
+    "used_by": []
+  },
+  {
+    "id": "ARCH-049",
+    "original_filename": "03-punk-bulletin-archive-v1.png",
+    "appearance_date": "2026-08-10",
+    "public_path": "/assets/archive/arch-049.png",
+    "used_by": []
+  },
+  {
+    "id": "ARCH-050",
+    "original_filename": "04-city-map-page-candidate-v1.png",
+    "appearance_date": "2026-08-10",
+    "public_path": "/assets/archive/arch-050.png",
+    "used_by": []
+  },
+  {
+    "id": "ARCH-027",
+    "original_filename": "235488db-d9e8-4d31-a407-71d66c882c89.png",
+    "appearance_date": "2025-11-06",
+    "public_path": "/assets/archive/arch-027.png",
+    "used_by": []
+  },
+  {
+    "id": "ARCH-040",
+    "original_filename": "d736acaa-56b5-4509-b289-8aefde0d73f4.png",
+    "appearance_date": "2025-11-05",
+    "public_path": "/assets/archive/arch-040.png",
+    "used_by": []
+  },
+  {
+    "id": "ARCH-008",
+    "original_filename": "A_storyboard_composed_of_ten_digital_illustrations.png",
+    "appearance_date": "2025-11-04",
+    "public_path": "/assets/archive/arch-008.png",
+    "used_by": []
+  },
+  {
+    "id": "ARCH-011",
+    "original_filename": "a06b85e2-7173-41a8-8a49-89b0e6afd765.png",
+    "appearance_date": "2025-11-04",
+    "public_path": "/assets/archive/arch-011.png",
+    "used_by": []
+  },
+  {
+    "id": "ARCH-013",
+    "original_filename": "a73bc9de-47c0-406f-b31e-bd505121f934.png",
+    "appearance_date": "2025-11-04",
+    "public_path": "/assets/archive/arch-013.png",
+    "used_by": []
+  },
+  {
+    "id": "ARCH-016",
+    "original_filename": "bb70f4d2-2b92-4192-a269-7532683f476d.png",
+    "appearance_date": "2025-11-04",
+    "public_path": "/assets/archive/arch-016.png",
+    "used_by": []
+  },
+  {
+    "id": "ARCH-032",
+    "original_filename": "7bfdb374-bba0-4b9a-b210-341149be727b.png",
+    "appearance_date": "2025-11-04",
+    "public_path": "/assets/archive/arch-032.png",
+    "used_by": []
+  },
+  {
+    "id": "ARCH-037",
+    "original_filename": "a1c0791a-d359-4473-9b63-228b89d5de97.png",
+    "appearance_date": "2025-11-04",
+    "public_path": "/assets/archive/arch-037.png",
+    "used_by": []
+  },
+  {
+    "id": "ARCH-041",
+    "original_filename": "dc62833a-b7c0-4d64-8762-1c0f2ff6cb30.png",
+    "appearance_date": "2025-11-04",
+    "public_path": "/assets/archive/arch-041.png",
+    "used_by": []
+  },
+  {
+    "id": "ARCH-004",
+    "original_filename": "6080c27b-8c1b-4694-960d-fa6db3b4c8c0.png",
+    "appearance_date": "2025-11-03",
+    "public_path": "/assets/archive/arch-004.png",
+    "used_by": [
+      "Бабка Марина"
+    ]
+  },
+  {
+    "id": "ARCH-009",
+    "original_filename": "Friendly_Robot_with_Glowing_Antenna.png",
+    "appearance_date": "2025-11-03",
+    "public_path": "/assets/archive/arch-009.png",
+    "used_by": [
+      "Флёпик"
+    ]
+  },
+  {
+    "id": "ARCH-012",
+    "original_filename": "a268f85e-d92d-4284-b21b-fbc36daee271.png",
+    "appearance_date": "2025-11-03",
+    "public_path": "/assets/archive/arch-012.png",
+    "used_by": [
+      "Курьер-дрон Гриша"
+    ]
+  },
+  {
+    "id": "ARCH-018",
+    "original_filename": "ddcb67f4-2dc8-4fce-8bfb-743913687a8b.png",
+    "appearance_date": "2025-11-03",
+    "public_path": "/assets/archive/arch-018.png",
+    "used_by": [
+      "Курьер-дрон Гриша"
+    ]
+  },
+  {
+    "id": "ARCH-031",
+    "original_filename": "69969e31-8f36-4e86-924d-4ae2ef978aca.png",
+    "appearance_date": "2025-11-03",
+    "public_path": "/assets/archive/arch-031.png",
+    "used_by": []
+  },
+  {
     "id": "ARCH-001",
     "original_filename": "1989725e-0ca0-4957-89f7-7f37ee6c6a52.png",
     "appearance_date": "2025-11-02",
@@ -21,15 +155,6 @@
     "appearance_date": "2025-11-02",
     "public_path": "/assets/archive/arch-003.png",
     "used_by": []
-  },
-  {
-    "id": "ARCH-004",
-    "original_filename": "6080c27b-8c1b-4694-960d-fa6db3b4c8c0.png",
-    "appearance_date": "2025-11-03",
-    "public_path": "/assets/archive/arch-004.png",
-    "used_by": [
-      "Бабка Марина"
-    ]
   },
   {
     "id": "ARCH-005",
@@ -55,45 +180,6 @@
     "used_by": []
   },
   {
-    "id": "ARCH-008",
-    "original_filename": "A_storyboard_composed_of_ten_digital_illustrations.png",
-    "appearance_date": "2025-11-04",
-    "public_path": "/assets/archive/arch-008.png",
-    "used_by": []
-  },
-  {
-    "id": "ARCH-009",
-    "original_filename": "Friendly_Robot_with_Glowing_Antenna.png",
-    "appearance_date": "2025-11-03",
-    "public_path": "/assets/archive/arch-009.png",
-    "used_by": [
-      "Флёпик"
-    ]
-  },
-  {
-    "id": "ARCH-011",
-    "original_filename": "a06b85e2-7173-41a8-8a49-89b0e6afd765.png",
-    "appearance_date": "2025-11-04",
-    "public_path": "/assets/archive/arch-011.png",
-    "used_by": []
-  },
-  {
-    "id": "ARCH-012",
-    "original_filename": "a268f85e-d92d-4284-b21b-fbc36daee271.png",
-    "appearance_date": "2025-11-03",
-    "public_path": "/assets/archive/arch-012.png",
-    "used_by": [
-      "Курьер-дрон Гриша"
-    ]
-  },
-  {
-    "id": "ARCH-013",
-    "original_filename": "a73bc9de-47c0-406f-b31e-bd505121f934.png",
-    "appearance_date": "2025-11-04",
-    "public_path": "/assets/archive/arch-013.png",
-    "used_by": []
-  },
-  {
     "id": "ARCH-014",
     "original_filename": "b3d8da43-93e7-4e2f-a0d8-4b3ac02a8f97.png",
     "appearance_date": "2025-11-02",
@@ -103,43 +189,11 @@
     ]
   },
   {
-    "id": "ARCH-015",
-    "original_filename": "bb6b0407-7d35-4a3f-9764-05aec8fa70df.png",
-    "appearance_date": null,
-    "public_path": "/assets/archive/arch-015.png",
-    "used_by": []
-  },
-  {
-    "id": "ARCH-016",
-    "original_filename": "bb70f4d2-2b92-4192-a269-7532683f476d.png",
-    "appearance_date": "2025-11-04",
-    "public_path": "/assets/archive/arch-016.png",
-    "used_by": []
-  },
-  {
     "id": "ARCH-017",
     "original_filename": "d24aac6c-18f6-4598-a052-8a504e4bb2ea.png",
     "appearance_date": "2025-11-02",
     "public_path": "/assets/archive/arch-017.png",
     "used_by": []
-  },
-  {
-    "id": "ARCH-018",
-    "original_filename": "ddcb67f4-2dc8-4fce-8bfb-743913687a8b.png",
-    "appearance_date": "2025-11-03",
-    "public_path": "/assets/archive/arch-018.png",
-    "used_by": [
-      "Курьер-дрон Гриша"
-    ]
-  },
-  {
-    "id": "ARCH-019",
-    "original_filename": "ebe2a864-610d-4791-af1f-e2de9f756530.png",
-    "appearance_date": null,
-    "public_path": "/assets/archive/arch-019.png",
-    "used_by": [
-      "Бабка Марина"
-    ]
   },
   {
     "id": "ARCH-020",
@@ -149,13 +203,6 @@
     "used_by": [
       "Даня"
     ]
-  },
-  {
-    "id": "ARCH-021",
-    "original_filename": "edeab23a-5435-4ced-ae8f-ea15a6663b53.png",
-    "appearance_date": null,
-    "public_path": "/assets/archive/arch-021.png",
-    "used_by": []
   },
   {
     "id": "ARCH-023",
@@ -174,6 +221,29 @@
     ]
   },
   {
+    "id": "ARCH-015",
+    "original_filename": "bb6b0407-7d35-4a3f-9764-05aec8fa70df.png",
+    "appearance_date": null,
+    "public_path": "/assets/archive/arch-015.png",
+    "used_by": []
+  },
+  {
+    "id": "ARCH-019",
+    "original_filename": "ebe2a864-610d-4791-af1f-e2de9f756530.png",
+    "appearance_date": null,
+    "public_path": "/assets/archive/arch-019.png",
+    "used_by": [
+      "Бабка Марина"
+    ]
+  },
+  {
+    "id": "ARCH-021",
+    "original_filename": "edeab23a-5435-4ced-ae8f-ea15a6663b53.png",
+    "appearance_date": null,
+    "public_path": "/assets/archive/arch-021.png",
+    "used_by": []
+  },
+  {
     "id": "ARCH-025",
     "original_filename": "1b5c022e-5bd4-4ff6-b259-05e62cfb2536.png",
     "appearance_date": null,
@@ -185,13 +255,6 @@
     "original_filename": "1c020bd6-be78-428f-9800-3d80e3e7d106.png",
     "appearance_date": null,
     "public_path": "/assets/archive/arch-026.png",
-    "used_by": []
-  },
-  {
-    "id": "ARCH-027",
-    "original_filename": "235488db-d9e8-4d31-a407-71d66c882c89.png",
-    "appearance_date": "2025-11-06",
-    "public_path": "/assets/archive/arch-027.png",
     "used_by": []
   },
   {
@@ -213,20 +276,6 @@
     "original_filename": "6171f825-39ab-4872-9593-0730bf33ffd2.png",
     "appearance_date": null,
     "public_path": "/assets/archive/arch-030.png",
-    "used_by": []
-  },
-  {
-    "id": "ARCH-031",
-    "original_filename": "69969e31-8f36-4e86-924d-4ae2ef978aca.png",
-    "appearance_date": "2025-11-03",
-    "public_path": "/assets/archive/arch-031.png",
-    "used_by": []
-  },
-  {
-    "id": "ARCH-032",
-    "original_filename": "7bfdb374-bba0-4b9a-b210-341149be727b.png",
-    "appearance_date": "2025-11-04",
-    "public_path": "/assets/archive/arch-032.png",
     "used_by": []
   },
   {
@@ -258,13 +307,6 @@
     "used_by": []
   },
   {
-    "id": "ARCH-037",
-    "original_filename": "a1c0791a-d359-4473-9b63-228b89d5de97.png",
-    "appearance_date": "2025-11-04",
-    "public_path": "/assets/archive/arch-037.png",
-    "used_by": []
-  },
-  {
     "id": "ARCH-038",
     "original_filename": "b4a0ad48-8b74-41cc-88a2-5e81b5c50d9e.png",
     "appearance_date": null,
@@ -276,20 +318,6 @@
     "original_filename": "d23de352-f1c7-4d15-852f-1b3da749c3c2.png",
     "appearance_date": null,
     "public_path": "/assets/archive/arch-039.png",
-    "used_by": []
-  },
-  {
-    "id": "ARCH-040",
-    "original_filename": "d736acaa-56b5-4509-b289-8aefde0d73f4.png",
-    "appearance_date": "2025-11-05",
-    "public_path": "/assets/archive/arch-040.png",
-    "used_by": []
-  },
-  {
-    "id": "ARCH-041",
-    "original_filename": "dc62833a-b7c0-4d64-8762-1c0f2ff6cb30.png",
-    "appearance_date": "2025-11-04",
-    "public_path": "/assets/archive/arch-041.png",
     "used_by": []
   },
   {
