@@ -71,13 +71,6 @@
     ]
   },
   {
-    "id": "ARCH-010",
-    "original_filename": "Screenshot_2025-11-02_at_21.35.49.png",
-    "appearance_date": "2025-11-02",
-    "public_path": "/assets/archive/arch-010.png",
-    "used_by": []
-  },
-  {
     "id": "ARCH-011",
     "original_filename": "a06b85e2-7173-41a8-8a49-89b0e6afd765.png",
     "appearance_date": "2025-11-04",
@@ -162,13 +155,6 @@
     "original_filename": "edeab23a-5435-4ced-ae8f-ea15a6663b53.png",
     "appearance_date": null,
     "public_path": "/assets/archive/arch-021.png",
-    "used_by": []
-  },
-  {
-    "id": "ARCH-022",
-    "original_filename": "f2f54056-f7a4-438c-a818-1393f4162cb7.png",
-    "appearance_date": null,
-    "public_path": "/assets/archive/arch-022.png",
     "used_by": []
   },
   {
@@ -332,13 +318,6 @@
     "original_filename": "Ошибка_человека_в_цифровом_мире.png",
     "appearance_date": null,
     "public_path": "/assets/archive/arch-045.png",
-    "used_by": []
-  },
-  {
-    "id": "ARCH-046",
-    "original_filename": "ca76c594-8f40-4be1-9400-9321f45f01a3.png",
-    "appearance_date": "2025-11-04",
-    "public_path": "/assets/archive/arch-046.png",
     "used_by": []
   }
 ]
