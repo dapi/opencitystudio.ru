@@ -14,21 +14,24 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800;900&display=swap">
   <link rel="stylesheet" href="/assets/styles.css">
+  <link rel="stylesheet" href="/assets/site-header.css">
 </head>
 <body>
 
   <a class="skip-link" href="#main">К содержанию</a>
   <header class="site-header">
-    <div class="shell nav">
-      <a class="brand" href="/"><span>Город</span> Нейросеть</a>
-      <nav class="nav-links" aria-label="Основная навигация">
-        <a href="/#issues">Выпуски</a>
-        <a href="/characters/">Картотека</a>
-        <a href="/archive/">Архив изображений</a>
-        <a href="https://t.me/opencity_studio">Telegram</a>
-        <a href="https://t.me/+CrpmI4X2BopiNmRi">Синхронизация</a>
-      </nav>
-    </div>
+    <a class="studio-mark" href="/" aria-label="OpenCity Studio — главная">
+      <span class="studio-mark__signal" aria-hidden="true"></span>
+      OpenCity Studio
+    </a>
+    <nav class="site-nav" aria-label="Основная навигация">
+      <a href="/characters/">Картотека</a>
+      <a href="/news/">Новости</a>
+      <a class="secondary-nav-link" href="/archive/">Архив</a>
+      <a href="/studio/">Студия</a>
+      <a class="secondary-nav-link" href="/studio/process/">Как мы работаем</a>
+      <a class="header-link" href="https://t.me/opencity_studio" aria-label="Telegram">Telegram ↗</a>
+    </nav>
   </header>
   <main id="main">
     <section class="catalog-hero shell">
@@ -310,5 +313,6 @@
         </article>
     </section></main>
   <footer class="site-footer"><div class="shell footer-row"><span>OpenCity Studio</span><span>Город, где оптимизация стала смыслом жизни.</span><a href="https://github.com/dapi/open-city">Исходный код на GitHub ↗</a></div></footer>
+
 </body>
 </html>

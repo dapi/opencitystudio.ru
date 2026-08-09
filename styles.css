@@ -49,7 +49,6 @@ a { color: inherit; }
 
 .skip-link:focus { transform: translateY(0); }
 
-.site-header,
 footer {
   display: flex;
   align-items: center;
@@ -57,45 +56,6 @@ footer {
   width: min(1180px, calc(100% - 48px));
   margin: 0 auto;
 }
-
-.site-header {
-  min-height: 92px;
-  border-bottom: 1px solid var(--line);
-}
-
-.studio-mark,
-.header-link,
-.site-nav a {
-  font-size: 0.78rem;
-  font-weight: 760;
-  letter-spacing: 0.08em;
-  text-decoration: none;
-  text-transform: uppercase;
-}
-
-.studio-mark { display: flex; gap: 0.65rem; align-items: center; }
-
-.site-nav {
-  display: flex;
-  gap: clamp(1rem, 3vw, 2.5rem);
-  align-items: center;
-}
-
-.site-nav a { color: var(--muted); }
-.site-nav a:hover,
-.site-nav a:focus-visible,
-.site-nav a[aria-current="page"] { color: var(--paper); }
-
-.studio-mark__signal {
-  width: 0.75rem;
-  height: 0.75rem;
-  background: var(--cyan);
-  border-radius: 50%;
-  box-shadow: 0 0 22px var(--cyan);
-}
-
-.header-link { color: var(--cyan); }
-.site-nav .header-link { color: var(--cyan); }
 
 main,
 footer { width: min(1180px, calc(100% - 48px)); margin-inline: auto; }
@@ -730,15 +690,8 @@ footer {
 }
 
 @media (max-width: 600px) {
-  .site-header,
   main,
   footer { width: min(100% - 30px, 1180px); }
-  .site-header { min-height: 74px; }
-  .studio-mark { font-size: 0.7rem; }
-  .header-link { font-size: 0; }
-  .header-link::after { content: "TG ↗"; font-size: 0.7rem; }
-  .site-nav { gap: 1rem; }
-  .site-nav > .secondary-nav-link { display: none; }
   .hero { min-height: auto; padding-top: 4.5rem; }
   h1 { font-size: clamp(3rem, 16.7vw, 4.6rem); }
   h1 span { -webkit-text-stroke-width: 1.5px; }
