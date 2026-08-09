@@ -232,6 +232,9 @@ h1 em { color: var(--cyan); font-style: normal; }
 .archive-gallery summary:hover { color: var(--paper); }
 .archive-gallery-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; padding: 2px 10px 12px; }
 .archive-gallery figure { min-width: 0; margin: 0; }
+.archive-gallery figure.is-featured { grid-column: 1 / -1; }
+.archive-gallery figure.is-featured img { aspect-ratio: auto; }
+.archive-gallery figure.is-featured figcaption { color: var(--paper); font-weight: 700; }
 .archive-gallery a { display: block; border: 1px solid rgb(241 226 195 / 24%); background: var(--ink); }
 .archive-gallery a:hover { border-color: var(--accent); }
 .archive-gallery img { width: 100%; aspect-ratio: 1; object-fit: cover; }
