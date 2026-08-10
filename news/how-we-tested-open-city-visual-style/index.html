@@ -1,0 +1,162 @@
+<!doctype html>
+<!-- GENERATED FILE. Source of truth: open-city repository. Do not edit published facts here. -->
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#070b12">
+  <meta name="color-scheme" content="dark">
+
+  <title>Как мы тестировали визуальный стиль OpenCity — Город Нейросеть</title>
+  <meta name="description" content="Мы перестали выбирать стиль по одной красивой картинке и проверили его на персонажах, совместных сценах и двух контролируемых тональностях.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%23070b12'/%3E%3Ccircle cx='16' cy='16' r='7' fill='%2308b8d1'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800;900&display=swap">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <link rel="stylesheet" href="/assets/site-header.css">
+</head>
+<body>
+
+  <a class="skip-link" href="#main">К содержанию</a>
+  <header class="site-header">
+    <a class="studio-mark" href="/" aria-label="OpenCity Studio — главная">
+      <span class="studio-mark__signal" aria-hidden="true"></span>
+      OpenCity Studio
+    </a>
+    <nav class="site-nav" aria-label="Основная навигация">
+      <a href="/characters/">Картотека</a>
+      <a href="/news/">Новости</a>
+      <a class="secondary-nav-link" href="/archive/">Архив</a>
+      <a href="/studio/">Студия</a>
+      <a class="secondary-nav-link" href="/studio/process/">Как мы работаем</a>
+      <a class="header-link" href="https://t.me/opencity_studio" aria-label="Telegram">Telegram ↗</a>
+    </nav>
+  </header>
+  <main id="main">
+    <article class="shell news-article">
+      <header class="news-article-header">
+        <div class="news-meta">10 августа 2026 · Внутри студии</div>
+        <h1>Как мы тестировали визуальный стиль OpenCity</h1>
+        <p class="lede">Визуальный язык серийного комикса должен переживать не один эффектный кадр, а десятки бытовых сцен. Поэтому после первого пакета Color-Breath мы устроили ему стресс-тест: упростили выбивающихся персонажей, собрали одинаковые сцены в двух настроениях и проверили, не распадается ли ансамбль.</p>
+      </header>
+      <figure class="news-cover">
+        <a href="/assets/news/how-we-tested-open-city-visual-style/05-ensemble-deadpan-warm-v1.png" data-lightbox data-caption="Один состав и одна композиция, но две допустимые эмоциональные температуры" target="_blank" rel="noopener" title="Открыть в полноэкранном просмотрщике">
+          <img src="/assets/news/how-we-tested-open-city-visual-style/05-ensemble-deadpan-warm-v1.png" alt="Сравнение двух версий общего ансамбля OpenCity: слева сухая светлая тональность Light Deadpan, справа более тёплая Light Warm." width="1024" height="1536">
+        </a>
+      </figure>
+      <div class="news-copy">
+        <section class="news-copy-section">
+          <h2>Сначала мы разделили направления</h2>
+          <p>В архиве накопились стили, которые решали разные задачи и потому плохо складывались в один сериал. Ранняя десятикадровая раскадровка и лист U-P² дали нужную основу: кремовую бумагу, уверенный контур, приглушённый teal, тёплые лица и узнаваемую постсоветскую повседневность.</p><p>Неоновая ветка оказалась слишком громкой: глобальное cyan-magenta свечение заставляло технологию перекрикивать человека. Мы исключили её из основного языка. Цифровой соцреализм сохранили как редкий специальный режим — например, для вложенного комикса или выпуска примерно один раз из двадцати, — но не как повседневный вид города.</p>
+
+        </section>
+        <section class="news-copy-section">
+          <h2>Красивого модельного листа оказалось недостаточно</h2>
+          <p>Первый совместный тест сразу показал разницу в плотности рисунка. Даня и Семёновна читались просто и ясно, а NEYRA и Макс сохраняли слишком много анатомических плоскостей, волос, швов и модной иллюстративности. Гриша обрастал техническими кольцами, царапинами и крепежом. Петли Флёпика генератор регулярно превращал в антенны на ножках.</p><p>Мы не меняли характеры и силуэты. Для NEYRA и Макса сократили лицевые плоскости, волосы и складки одежды; Максу убрали героическую ширину плеч. У Гриши уменьшили количество швов и механики примерно на треть. Для Флёпика отдельно зафиксировали геометрию: ровно две замкнутые петли, каждая прикреплена к верхней крышке двумя концами.</p>
+
+        </section>
+        <section class="news-copy-section">
+          <h2>Две тональности вместо одного фильтра</h2>
+          <p>Главное разногласие было не между светлым и мрачным стилем. Мрачность нам не нужна: даже при фатальном устройстве города сатира должна сохранять лёгкость. Поэтому мы проверяли две версии одной системы, меняя только температуру света, микромимику, направление взгляда и минимальные позы.</p><p>Light Deadpan оставляет институциональный абсурд сухим: нейтральные рты, прохладная среда, спокойная пауза. Light Warm добавляет небольшие взаимные взгляды, чуть более тёплые лица и ощущение солидарности внутри той же бессмысленной процедуры. Это не оптимизм по поводу системы, а человеческое тепло рядом с ней.</p>
+
+        </section>
+        <section class="news-copy-section">
+          <h2>Как проходил A/B-тест</h2>
+
+          <ul><li>Одинаковые композиция, камера, персонажи, предметы, контур и бумажное зерно.</li><li>Слева в сравнительных листах всегда Light Deadpan, справа — Light Warm.</li><li>Муниципальная сцена проверяет институцию; студия — совместимость человеческих лиц; двор — роботов и бытовую среду.</li><li>Общий кадр проверяет шесть телесных персонажей и распределённое присутствие Мэра через городские интерфейсы.</li><li>Каждая ошибка исправлялась одной точечной операцией, чтобы не скрыть причину улучшения новой полной генерацией.</li></ul>
+        </section>
+        <section class="news-copy-section">
+          <h2>Что обнаружил стресс-тест</h2>
+          <p>Самая полезная ошибка случилась во дворе. После исправления петель Флёпика генератор перенёс такие же петли на Гришу. Следующая правка убрала их с дрона, не затронув Флёпика. Этот случай превратился в отдельное правило: описание персонажа должно включать не только собственные признаки, но и элементы, которые ему категорически не принадлежат.</p><p>Параллельно мы сверились с актуальным каноном Мэра. Экранная голова и костюм оказались устаревшей трактовкой: сейчас Мэр существует без тела, через синхронные статусы на обычных городских интерфейсах. Поэтому ранние групповые тесты сохранились только как диагностика, а финальный ансамбль был пересобран.</p><p>У Гриши появился ещё один воспроизводимый якорь — бортовой идентификатор CITY-005 на оранжевой грузовой кассете. Мы отдельно проверили точность надписи на модельном листе, среднем и общем плане.</p>
+
+        </section>
+        <section class="news-copy-section">
+          <h2>Итоговое решение</h2>
+          <p>Обе тональности остаются внутри Color-Breath. Light Deadpan лучше подходит для регламентов, очередей, автоматизированного безразличия и сухой финальной паузы. Light Warm — для командных сцен, соседства и моментов, где персонажи вместе признают абсурд происходящего.</p><p>Дальше выбор будет зависеть от настроения конкретной сцены, а не от единого фильтра на весь сериал. Реакцию аудитории будем измерять только на сопоставимых материалах: нельзя одновременно менять сюжет, композицию и цвет, а затем объявлять победителем один визуальный режим.</p>
+
+        </section></div>
+      <aside class="telegram-teaser">
+        <div class="eyebrow">Следить за процессом</div>
+        <p>Следующий этап — проверять обе тональности на реальных выпусках и сравнивать реакцию читателей, не меняя одновременно сюжет, композицию и состав персонажей.</p>
+        <a class="button" href="https://t.me/opencity_studio">Открыть Telegram ↗</a>
+      </aside>
+      <section class="news-gallery" aria-labelledby="news-gallery-title">
+        <div class="section-heading"><h2 id="news-gallery-title">Референсы, исправления и контрольные сцены</h2><div class="count">09</div></div>
+        <div class="news-gallery-grid">
+        <figure class="news-gallery-item">
+          <a href="/assets/news/how-we-tested-open-city-visual-style/A_storyboard_composed_of_ten_digital_illustrations.png" data-lightbox data-caption="Ранняя целевая раскадровка" target="_blank" rel="noopener" title="Открыть в полноэкранном просмотрщике">
+            <img src="/assets/news/how-we-tested-open-city-visual-style/A_storyboard_composed_of_ten_digital_illustrations.png" alt="Десятикадровая ранняя раскадровка OpenCity на кремовой бумаге с героями и постсоветской городской средой." loading="lazy" width="1024" height="1536">
+          </a>
+          <figcaption><strong>Ранняя целевая раскадровка</strong>Главный источник бытовой среды, лёгкой сатиры, линии и печатной фактуры.</figcaption>
+        </figure>
+        <figure class="news-gallery-item">
+          <a href="/assets/news/how-we-tested-open-city-visual-style/a73bc9de-47c0-406f-b31e-bd505121f934.png" data-lightbox data-caption="OpenCity Visual DNA / U-P²" target="_blank" rel="noopener" title="Открыть в полноэкранном просмотрщике">
+            <img src="/assets/news/how-we-tested-open-city-visual-style/a73bc9de-47c0-406f-b31e-bd505121f934.png" alt="Лист визуальной системы U-P² с кремовой бумагой, приглушённым teal, палитрой и примерами персонажей." loading="lazy" width="1024" height="1536">
+          </a>
+          <figcaption><strong>OpenCity Visual DNA / U-P²</strong>Вспомогательная формализация палитры, контура и интерфейсных акцентов.</figcaption>
+        </figure>
+        <figure class="news-gallery-item">
+          <a href="/assets/news/how-we-tested-open-city-visual-style/69969e31-8f36-4e86-924d-4ae2ef978aca.png" data-lightbox data-caption="Неоновая ветка" target="_blank" rel="noopener" title="Открыть в полноэкранном просмотрщике">
+            <img src="/assets/news/how-we-tested-open-city-visual-style/69969e31-8f36-4e86-924d-4ae2ef978aca.png" alt="Тёмный неоновый плакат OpenCity с cyan-magenta свечением." loading="lazy" width="1024" height="1536">
+          </a>
+          <figcaption><strong>Неоновая ветка</strong>Содержательные идеи сохранены, но глобальное неоновое свечение исключено из основного языка.</figcaption>
+        </figure>
+        <figure class="news-gallery-item">
+          <a href="/assets/news/how-we-tested-open-city-visual-style/235488db-d9e8-4d31-a407-71d66c882c89.png" data-lightbox data-caption="Цифровой соцреализм" target="_blank" rel="noopener" title="Открыть в полноэкранном просмотрщике">
+            <img src="/assets/news/how-we-tested-open-city-visual-style/235488db-d9e8-4d31-a407-71d66c882c89.png" alt="Плакатная комиксная сцена с советской композиционной интонацией, грубым зерном и яркими цветами." loading="lazy" width="1024" height="1536">
+          </a>
+          <figcaption><strong>Цифровой соцреализм</strong>Редкий альтернативный режим для вложенных историй, а не повседневный стиль сериала.</figcaption>
+        </figure>
+        <figure class="news-gallery-item">
+          <a href="/assets/news/how-we-tested-open-city-visual-style/01-character-corrections-contact-sheet-v1.png" data-lightbox data-caption="Точечные исправления персонажей" target="_blank" rel="noopener" title="Открыть в полноэкранном просмотрщике">
+            <img src="/assets/news/how-we-tested-open-city-visual-style/01-character-corrections-contact-sheet-v1.png" alt="Контактный лист исправленных моделей Флёпика, NEYRA, Макса и Гриши." loading="lazy" width="1024" height="1536">
+          </a>
+          <figcaption><strong>Точечные исправления персонажей</strong>Петли Флёпика, упрощённые NEYRA и Макс, сокращённая механика Гриши.</figcaption>
+        </figure>
+        <figure class="news-gallery-item">
+          <a href="/assets/news/how-we-tested-open-city-visual-style/02-municipal-deadpan-warm-v1.png" data-lightbox data-caption="Муниципальная сцена" target="_blank" rel="noopener" title="Открыть в полноэкранном просмотрщике">
+            <img src="/assets/news/how-we-tested-open-city-visual-style/02-municipal-deadpan-warm-v1.png" alt="Две версии муниципальной очереди с Даней, Семёновной и Флёпиком; Мэр проявляется только на интерфейсах." loading="lazy" width="1024" height="1536">
+          </a>
+          <figcaption><strong>Муниципальная сцена</strong>Слева Light Deadpan, справа Light Warm; Мэр остаётся распределённой системой без тела.</figcaption>
+        </figure>
+        <figure class="news-gallery-item">
+          <a href="/assets/news/how-we-tested-open-city-visual-style/03-studio-deadpan-warm-v1.png" data-lightbox data-caption="Студийная сцена" target="_blank" rel="noopener" title="Открыть в полноэкранном просмотрщике">
+            <img src="/assets/news/how-we-tested-open-city-visual-style/03-studio-deadpan-warm-v1.png" alt="Две версии студийной сцены с Даней, NEYRA и Максом вокруг чистого листа бумаги." loading="lazy" width="1024" height="1536">
+          </a>
+          <figcaption><strong>Студийная сцена</strong>Проверка общей условности человеческих лиц и разницы между сухой паузой и тёплым соучастием.</figcaption>
+        </figure>
+        <figure class="news-gallery-item">
+          <a href="/assets/news/how-we-tested-open-city-visual-style/04-courtyard-deadpan-warm-v1.png" data-lightbox data-caption="Двор" target="_blank" rel="noopener" title="Открыть в полноэкранном просмотрщике">
+            <img src="/assets/news/how-we-tested-open-city-visual-style/04-courtyard-deadpan-warm-v1.png" alt="Две версии дворовой сцены с Семёновной, Флёпиком и дроном Гришей у неверного подъезда." loading="lazy" width="1024" height="1536">
+          </a>
+          <figcaption><strong>Двор</strong>Проверка роботов, бытовой среды, петель Флёпика и читаемости CITY-005.</figcaption>
+        </figure>
+        <figure class="news-gallery-item">
+          <a href="/assets/news/how-we-tested-open-city-visual-style/06-grisha-city-005-model-v1.png" data-lightbox data-caption="Гриша CITY-005" target="_blank" rel="noopener" title="Открыть в полноэкранном просмотрщике">
+            <img src="/assets/news/how-we-tested-open-city-visual-style/06-grisha-city-005-model-v1.png" alt="Модельный лист дрона Гриши с двумя роторами, оранжевой кассетой и номером CITY-005 во всех видимых ракурсах." loading="lazy" width="1024" height="1536">
+          </a>
+          <figcaption><strong>Гриша CITY-005</strong>Отдельный текстовый тест подтвердил точное воспроизведение бортового идентификатора.</figcaption>
+        </figure></div>
+      </section>
+      <nav class="news-back" aria-label="Навигация по новостям"><a href="/news/">← Все новости студии</a></nav>
+    </article>
+    <dialog class="news-lightbox" id="news-lightbox" aria-label="Полноэкранный просмотр изображения">
+      <header class="news-lightbox-toolbar">
+        <p class="news-lightbox-caption" aria-live="polite"></p>
+        <div class="news-lightbox-controls">
+          <button type="button" data-lightbox-zoom-out aria-label="Уменьшить изображение">−</button>
+          <output class="news-lightbox-scale" aria-live="polite">100%</output>
+          <button type="button" data-lightbox-zoom-in aria-label="Увеличить изображение">+</button>
+          <button type="button" data-lightbox-reset>Вписать</button>
+          <button type="button" data-lightbox-close>Закрыть ×</button>
+        </div>
+      </header>
+      <div class="news-lightbox-stage">
+        <div class="news-lightbox-canvas"><img class="news-lightbox-image" alt=""></div>
+      </div>
+    </dialog></main>
+  <footer class="site-footer"><div class="shell footer-row"><span>OpenCity Studio</span><span>Город, где оптимизация стала смыслом жизни.</span><a href="https://github.com/dapi/open-city">Исходный код на GitHub ↗</a></div></footer>
+  <script src="/assets/news-lightbox.js" defer></script>
+</body>
+</html>
